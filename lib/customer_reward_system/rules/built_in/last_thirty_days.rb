@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module CustomerRewardSystem
   module Rules
     module BuiltIn

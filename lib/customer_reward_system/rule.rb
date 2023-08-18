@@ -5,8 +5,7 @@ module CustomerRewardSystem
   class Rule
     include CustomerRewardSystem::Rewards::Rewardable
 
-    def initialize(*args)
-    end
+    def initialize(*args); end
 
     def applies_to?(purchases)
       raise NotImplementedError

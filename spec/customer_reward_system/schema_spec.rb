@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-RSpec.describe CustomerRewardSystem::Schema do
+RSpec.describe CustomerRewardSystem::Schema do # rubocop:disable Metrics/BlockLength
   subject { described_class.new(config:) }
 
   let(:config) { CustomerRewardSystem::Config.new }
@@ -12,7 +12,7 @@ RSpec.describe CustomerRewardSystem::Schema do
     JSON.parse(file)
   end
 
-  describe 'configuration' do
+  describe 'configuration' do # rubocop:disable Metrics/BlockLength
     context 'with default rules only' do
       it 'imports default rules from the config' do
         expect(subject.rules.count).to eq(3)
