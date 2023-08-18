@@ -50,6 +50,11 @@ CUSTOMER_PURCHASES = [
   - Consider a linter of your choice to keep a consistent style in your code
   - Use git and appropriate commit-messages to document your changes
 
+
+### Documentation
+
+[RDOC  documentation is available](./doc/index.html)
+
 ### Usage example
 
 ```ruby
