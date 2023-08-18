@@ -55,6 +55,9 @@ CUSTOMER_PURCHASES = [
 
 [RDOC  documentation is available](./doc/index.html)
 
+<img width="1208" alt="image" src="https://github.com/alxekb/customer_rewards/assets/33656756/e47c95e2-3eed-48a5-a059-b45ccd4415c6">
+
+
 ### Usage example
 
 ```ruby
